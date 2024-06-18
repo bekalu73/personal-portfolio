@@ -36,18 +36,21 @@ function About() {
           </div> */}
           <p>
             Greetings👋 ! I am a dedicated MERN (MongoDB, Express.js, React.js,
-            Node.js) full-stack website developer located in Addis Ababa,
-            Ethiopia. With a passion for crafting seamless digital experiences,
-            I specialize in transforming ideas into user-friendly and innovative
-            web solutions. My journey in web development is marked by a
-            commitment to continuous learning, and I thrive on creating websites
-            that not only meet but exceed expectations. Living in the dynamic
-            tech scene of Addis Ababa has provided me with diverse project
-            experiences, contributing to the digital transformation of the
-            region. I believe in the power of technology to bridge gaps and
-            create meaningful connections, and I am dedicated to shaping the
-            digital future. Explore my portfolio, and let's collaborate to turn
-            your ideas into extraordinary digital realities. 🚀
+            Node.js) full-stack developer and experienced Quality Assurance (QA)
+            specialist located in Addis Ababa, Ethiopia. With a passion for
+            crafting seamless digital experiences and ensuring software quality,
+            I specialize in transforming ideas into user-friendly, innovative,
+            and reliable web solutions. My journey in web development and QA is
+            marked by a commitment to continuous learning and a strong emphasis
+            on quality assurance best practices. I thrive on creating websites
+            and applications that not only meet but exceed expectations. Living
+            in the dynamic tech scene of Addis Ababa has provided me with
+            diverse project experiences, contributing to the digital
+            transformation of the region. I believe in the power of technology
+            to bridge gaps and create meaningful connections, and I am dedicated
+            to shaping the digital future. Explore my portfolio, and let's
+            collaborate to turn your ideas into extraordinary digital realities.
+            🚀
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

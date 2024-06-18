@@ -4,8 +4,12 @@ import IMG1 from "../../assets/portfolio1.jpg";
 import IMG2 from "../../assets/portfolio2.jpg";
 import IMG3 from "../../assets/portfolio3.jpg";
 import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.jpg";
-import IMG6 from "../../assets/portfolio6.jpg";
+import IMG5 from "../../assets/retina logo.jpg";
+import Blog from "../../assets/blog logo.jpg";
+import Book from "../../assets/bookstore logo.jpg";
+import CHAT from "../../assets/chatapp logo.jpg";
+import FORUM from "../../assets/evangadi form.jpeg";
+import SOCIAL from "../../assets/social media app.jpg";
 
 const data = [
   {
@@ -19,29 +23,59 @@ const data = [
     id: 2,
     image: IMG2,
     title: "Apple React Clone",
-    // github: "http://github.com",
+    github: "https://github.com/bekalu73/Apple-React-Clone",
     demo: "https://65926c3364ff8c9209499613--aquamarine-genie-c73f3f.netlify.app/",
   },
   {
     id: 3,
     image: IMG3,
     title: "Apple Bootstrap Clone",
-    // github: "http://github.com",
+    github: "http://github.com",
     demo: "https://aquamarine-genie-c73f3f.netlify.app/",
   },
   {
     id: 4,
     image: IMG4,
     title: "Amazon Frontend Clone",
-    // github: "http://github.com",
-    demo: "react-clone-727fc.web.app",
+    github: "https://github.com/bekalu73/amazon-frontend-clone",
+    // demo: "react-clone-727fc.web.app",
   },
   {
     id: 5,
     image: IMG5,
     title: "Retina Pharmaceuticals",
-    // github: "http://github.com",
+    github: "https://github.com/bekalu73/retina-pharma",
     demo: "https://6592670864ff8c8fb049969f--aquamarine-genie-c73f3f.netlify.app/",
+  },
+  {
+    id: 6,
+    image: Blog,
+    title: "Fullstack Blogging App",
+    github: "https://github.com/bekalu73/MERN-blog-website",
+  },
+  {
+    id: 7,
+    image: Book,
+    title: "Fullstack Bookstore App",
+    github: "https://github.com/bekalu73/Book-Store-MERN-Stack",
+  },
+  {
+    id: 8,
+    image: SOCIAL,
+    title: "Social Media App",
+    github: "https://github.com/bekalu73/Nodejs-social-media-app",
+  },
+  {
+    id: 9,
+    image: CHAT,
+    title: "Chat App with WebSocket",
+    github: "https://github.com/bekalu73/chat-app-with-websockets",
+  },
+  {
+    id: 10,
+    image: FORUM,
+    title: "Evangadi Forum Backend",
+    github: "https://github.com/bekalu73/Evangadi-Forum",
   },
 ];
 
@@ -59,12 +93,20 @@ function Portfolio() {
               </div>
               <h3>{title}</h3>
               <div className="portfolio__item-cta">
-                {/* <a href={github} className="btn" target="_blank">
-                  Github
-                </a> */}
-                <a href={demo} className="btn btn-primary" target="_blank">
-                  Live Demo
-                </a>
+                {github ? (
+                  <a href={github} className="btn" target="_blank">
+                    Github
+                  </a>
+                ) : (
+                  ""
+                )}
+                {demo ? (
+                  <a href={demo} className="btn btn-primary" target="_blank">
+                    Live Demo
+                  </a>
+                ) : (
+                  ""
+                )}
               </div>
             </article>
           );

@@ -165,6 +165,94 @@ function Experience() {
                 <small className="text-light">Experienced</small>
               </div>
             </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Google Search</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>ChatGPT</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div className="experience__backend">
+          <h3>Quality Assurance Expertise</h3>
+          <div className="experience__content">
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Design and Execution of Test Plans</h4>
+                <small className="text-light">
+                  Experienced in designing, developing, and executing
+                  comprehensive test plans and test cases to ensure software
+                  quality and reliability.
+                </small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>
+                  Functional, Regression, Integration, and Performance Testing
+                </h4>
+                <small className="text-light">
+                  Skilled in performing various types of testing, including
+                  functional, regression, integration, and performance testing
+                  to identify, document, and track software defects.
+                </small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Unit Testing</h4>
+                <small className="text-light">
+                  Proficient in writing unit tests using frameworks like Jest to
+                  test individual units of an application without external
+                  dependencies. Knowledgeable in using mock functions to isolate
+                  code during testing.
+                </small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Integration Testing</h4>
+                <small className="text-light">
+                  Expertise in writing integration tests to verify the
+                  application's interaction with external resources such as
+                  databases. Ensuring a clean test environment and accurate data
+                  handling throughout the testing process.
+                </small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>End-to-End Testing</h4>
+                <small className="text-light">
+                  Experienced in conducting end-to-end tests to validate the
+                  entire application workflow through its user interface.
+                </small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Test Automation</h4>
+                <small className="text-light">
+                  Proficient in using tools such as Selenium and JUnit to
+                  automate testing processes, enhancing testing efficiency and
+                  reliability.
+                </small>
+              </div>
+            </article>
           </div>
         </div>
       </div>
