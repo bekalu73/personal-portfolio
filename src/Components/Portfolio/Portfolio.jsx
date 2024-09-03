@@ -45,7 +45,7 @@ const data = [
     image: IMG5,
     title: "Retina Pharmaceuticals",
     github: "https://github.com/bekalu73/retina-pharma",
-    demo: "https://6592670864ff8c8fb049969f--aquamarine-genie-c73f3f.netlify.app/",
+    demo: "https://664f035a6a255000798b7646--playful-sunflower-ad9fef.netlify.app/",
   },
   {
     id: 6,

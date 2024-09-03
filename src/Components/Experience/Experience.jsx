@@ -165,7 +165,7 @@ function Experience() {
                 <small className="text-light">Experienced</small>
               </div>
             </article>
-            <article className="experience__details">
+            {/* <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Google Search</h4>
@@ -178,10 +178,10 @@ function Experience() {
                 <h4>ChatGPT</h4>
                 <small className="text-light">Experienced</small>
               </div>
-            </article>
+            </article> */}
           </div>
         </div>
-        <div className="experience__backend">
+        {/* <div className="experience__backend">
           <h3>Quality Assurance Expertise</h3>
           <div className="experience__content">
             <article className="experience__details">
@@ -254,7 +254,7 @@ function Experience() {
               </div>
             </article>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
